@@ -1,19 +1,29 @@
 <template>
   <div id="app">
     <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <Alumnos/>
+    <navegacion></navegacion>
+    <registrar-alumno></registrar-alumno>
+    <lista-alumnos></lista-alumnos>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import Alumnos from '@/components/Alumnos.vue';
+import Navegacion from '@/components/Navegacion.vue';
+import RegistrarAlumno from '@/components/RegistrarAlumno.vue';
+import ListaAlumnos from '@/components/ListaAlumnos.vue';
+
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    Alumnos,
+    Navegacion,
+    RegistrarAlumno,
+    ListaAlumnos
   }
-}
+};
 </script>
 
 <style>
