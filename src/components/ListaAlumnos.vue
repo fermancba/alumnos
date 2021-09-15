@@ -1,8 +1,8 @@
 <template>
-    <div class="container">
+    <div class="container-fluid">
       <div class="row pt-5">
 
-        <div class="col-md-7">
+        <div class="col-md-12">
           <table class="table table-bordered">
             <paginate ref="paginator" name="alumnos" :list="alumnos" :per="5" tag="tbody">
             <thead>

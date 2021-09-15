@@ -1,28 +1,29 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <Alumnos/>
+    <img alt="Alumnos logo" src="./assets/alumnos.png" />
+    <Alumnos />
     <navegacion></navegacion>
-    <registrar-alumno></registrar-alumno>
-    <lista-alumnos></lista-alumnos>
+    <div class="container-fluid">
+      <registrar-alumno></registrar-alumno>
+      <lista-alumnos></lista-alumnos>
+    </div>
   </div>
 </template>
 
 <script>
-import Alumnos from '@/components/Alumnos.vue';
-import Navegacion from '@/components/Navegacion.vue';
-import RegistrarAlumno from '@/components/RegistrarAlumno.vue';
-import ListaAlumnos from '@/components/ListaAlumnos.vue';
-
+import Alumnos from "@/components/Alumnos.vue";
+import Navegacion from "@/components/Navegacion.vue";
+import RegistrarAlumno from "@/components/RegistrarAlumno.vue";
+import ListaAlumnos from "@/components/ListaAlumnos.vue";
 
 export default {
-  name: 'App',
+  name: "App",
   components: {
     Alumnos,
     Navegacion,
     RegistrarAlumno,
-    ListaAlumnos
-  }
+    ListaAlumnos,
+  },
 };
 </script>
 

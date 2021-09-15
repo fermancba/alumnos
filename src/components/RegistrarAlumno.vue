@@ -1,8 +1,8 @@
 <template>
-    <div class="container">
+    <!--<div class="container-fluid">-->
       <div class="row pt-5">
 
-        <div class="col-md-5">
+        <div class="col-md-12">
           <div class="card">
             <div class="card-body">
               <form @submit.prevent="sendAlumno">
@@ -61,7 +61,7 @@
         </div>
 
       </div>
-    </div>
+    <!--</div>-->
 </template>
 
 <script>
